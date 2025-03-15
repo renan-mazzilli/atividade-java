@@ -10,4 +10,31 @@ public class Conta {
         this.nomeCliente = nomeCliente;
         this.saldo = 0.0;
     }
+    public String getNumeroConta() {
+        return numeroConta;
+    }
+
+    public void setNumeroConta(String numeroConta) {
+        this.numeroConta = numeroConta;
+    }
+
+    public String getNomeAgencia() {
+        return nomeAgencia;
+    }
+
+    public void setNomeAgencia(String nomeAgencia) {
+        this.nomeAgencia = nomeAgencia;
+    }
+
+    public String getNomeCliente() {
+        return nomeCliente;
+    }
+
+    public void setNomeCliente(String nomeCliente) {
+        this.nomeCliente = nomeCliente;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
 }
