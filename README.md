@@ -58,12 +58,17 @@ O sistema oferece as seguintes funcionalidades:
 
 ## Como Executar
 
-1. Compile os arquivos Java:
+1. Clone o repositório
+   ```bash
+   git clone git@github.com:renan-mazzilli/atividade-java.git
+   ```
+
+2. Compile os arquivos Java:
    ```bash
    javac Main.java Conta.java
    ```
 
-2. Execute o programa:
+3. Execute o programa:
    ```bash
    java Main
    ```
